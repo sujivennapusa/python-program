@@ -1,1 +1,1 @@
-print("suji")
+print("nani")
