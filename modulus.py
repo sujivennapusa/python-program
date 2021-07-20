@@ -1,4 +1,8 @@
-a=50
+
+a=100
+
+
+
 b=2
 modulus=a%b
 print(modulus)
