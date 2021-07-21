@@ -4,11 +4,13 @@ print(max(names))
 print(min(names))
 students=["aparna","krupa","arif"]
 states=["ap","mp","up"]
-print(cmp(names,states))
-print(states*4)   # list repeatition
-print(names+students) # list conacatenation
-print(len(names+students+states))
-print(len(names)) #finding the length of list
+states.append("karnataka")
+print(states)
+#print(cmp(names,states))
+#print(states*4)   # list repeatition
+#print(names+students) # list conacatenation
+#print(len(names+students+states))
+#print(len(names)) #finding the length of list
 # del names[3]
 # #names.remove(100)
 # print(names)
