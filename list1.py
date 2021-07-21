@@ -1,11 +1,13 @@
 names=[100,76,25,12]
-print(tuple(names))
-print(max(names))
-print(min(names))
-students=["aparna","krupa","arif"]
-states=["ap","mp","up"]
-states.append("karnataka")
-print(states)
+print(names.sort(reverse=True))
+print(names)
+#print(tuple(names))
+#print(max(names))
+#print(min(names))
+#students=["aparna","krupa","arif"]
+#states=["ap","mp","up"]
+#states.append("karnataka")
+#print(states)
 #print(cmp(names,states))
 #print(states*4)   # list repeatition
 #print(names+students) # list conacatenation
