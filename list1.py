@@ -1,6 +1,8 @@
 names=[100,76,25,12]
 print(names.sort(reverse=True))
 print(names)
+print(names.sort())
+print(names)
 #print(tuple(names))
 #print(max(names))
 #print(min(names))
