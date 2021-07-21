@@ -1,6 +1,10 @@
-names=["suji","nani","sai","aru",100,76,25,12]
+names=[100,76,25,12]
+print(tuple(names))
+print(max(names))
+print(min(names))
 students=["aparna","krupa","arif"]
 states=["ap","mp","up"]
+print(cmp(names,states))
 print(states*4)   # list repeatition
 print(names+students) # list conacatenation
 print(len(names+students+states))
