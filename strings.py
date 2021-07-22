@@ -16,4 +16,4 @@ data=input("enter the string:")
 #print(data[len(data)-1]) 
 #print(data[-1])    # prints the last letter of string
 #print(data[22])
-print(data[::-1]) # reverse a string
+#print(data[::-1]) # reverse a string
