@@ -1,5 +1,6 @@
 data=input("enter the string:")
-#x=slice(7)      # cut the string until the position 7
+x=slice(5)  # cut the string until the position 7
+print(data[x])    
 #print(data)
 #print(data[6])      #prints the letter at position 6
 #print(data[1:6])     # prints the string from 0 to 6
