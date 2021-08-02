@@ -17,3 +17,4 @@ print(obj.subTwoNum(n1,n2))
 print(obj.mulTwoNum(n1,n2)) """
 print(issubclass(Calculator,MultiplicationOperation))
 print(issubclass(SubtractionOperation,MultiplicationOperation))
+print(issubclass(MultiplicationOperation,Calculator))
