@@ -13,7 +13,9 @@ d1['admno']="1001"
 
 for key,value in d1.items():
     print(key,value) """
-#Counter()
+
+""" #Counter()
 import collections
 x=collections.Counter(["hello","hai","hello"])
-print(x)
+print(x) """
+
