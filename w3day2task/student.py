@@ -1,4 +1,6 @@
-studentlist=[]
+import csv
+header=[]
+studentlist=['name','rollno','admin','english','hindi','chemistry','maths','telugu']
 class StudentDetails:
     """ def __init__(self,name,rollno,admin,enlish,hindi,chemistry,maths,telugu):
         self.name=name
@@ -20,6 +22,7 @@ while(True):
     print("3.search student using rollno:")
     print("4.ranking:")
     print("5.exit")
+    print("6.save data to file")
     choice =int(input("enter the choice:"))
     if choice==1:
         name=input("enter the name:")
@@ -42,6 +45,13 @@ while(True):
 
     if choice==5:
         break
+    if choice==6:
+        with open('student.csv','w+',encoding='UTF8',newline='') as s:
+             writer=csv.DictWriter(s,fieldnames=header)
+             writer.writeheader()
+             writer.writerows(studentlist)
+
+
 
 
 
