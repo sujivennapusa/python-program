@@ -16,15 +16,24 @@ while(True):
     print("1.addition")
     print("2.subtraction")
     print("3.multiplication")
+    print("4.exit")
     choice=int(input("enter the choice :"))
-    x=int(input("enter the number :"))
-    y=int(input("enter the number :"))
+    
     if choice==1:
+        x=int(input("enter the number :"))
+        y=int(input("enter the number :"))
         print(o1.addTwoNum(x,y))
     if choice==2:
+        x=int(input("enter the number :"))
+        y=int(input("enter the number :"))
         print(o2.subTwoNum(x,y))
     if choice==3:
+        x=int(input("enter the number :"))
+        y=int(input("enter the number :"))
         print(o3.mulTwoNum(x,y))
+    if choice==4:
+        print("exit")
+        break    
 
         
 
