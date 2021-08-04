@@ -10,5 +10,7 @@ while(True):
     if choice==2:
        print("subtraction selected")
     if choice==3:
-       break      
+       break  
+    else:
+       print("wrong choice")       
 
